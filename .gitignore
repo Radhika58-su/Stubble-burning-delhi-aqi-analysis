@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+data/firms_chunks/
+data/firms_raw_2021_2023.csv
+data/tidy_*.csv
+.vscode/
