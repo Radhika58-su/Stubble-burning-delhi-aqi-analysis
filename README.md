@@ -48,6 +48,16 @@ Correlation between daily fire count and Delhi mean AQI (all three seasons poole
 
 Charts: `data/lag_correlation.png` and `data/season_overview.png`.
 
+## Dashboard
+
+A two-page Power BI dashboard summarises the three seasons: a year slicer, KPI cards, a daily fires-vs-AQI timeline, and the lag-correlation chart.
+
+![Overview](dashboard/page1_overview.png)
+![Lag correlation](dashboard/page2_lag.png)
+
+The overview screenshot shows the 2021 season; use the year slicer in the Power BI file to switch seasons. The file is `dashboard/stubble_aqi_dashboard.pbix` (open it with Power BI Desktop). The lag table on page 2 was typed in by hand from the output of `robustness.py`, so it needs updating if the analysis is re-run.
+
+
 ## Limitations
 
 - **This is association, not causation.** r = 0.3 means about 9% of day-to-day AQI change is
